@@ -44,7 +44,7 @@ footer a {
 }
 
 header {
-    background-image: url(obrazky/PozadiD.jpg);
+    background-image: url(Obrazky/PozadiD.jpg);
     overflow: auto;
 }
 
@@ -74,7 +74,7 @@ header {
     display:inline-block;
 }
 .menu a:hover {
-        background-image: url(obrazky/TlacitkoMenu.jpg);
+        background-image: url(Obrazky/TlacitkoMenu.jpg);
         color:#3a3a3a;
 }
     
@@ -96,7 +96,7 @@ section img {
 
 footer {
     text-align: center;
-    background-image: url(obrazky/PozadiDpat.jpg);
+    background-image: url(Obrazky/PozadiDpat.jpg);
     color: #F2F2F2;  
     margin-top: 50px;     
 }
