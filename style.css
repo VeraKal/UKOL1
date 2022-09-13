@@ -1,14 +1,12 @@
 /* 
 růžová #F2528D
 žlutá #F2C84B
-oranžová #F2811D
-skoro bílá #F2F2F2
 skoro černá #0D0D0D
 } */
 
 body {
     color: #0D0D0D;
-    background-color: #F2F2F2;
+    background-color: white;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.5;
     margin: 0 0;
@@ -22,7 +20,7 @@ h1 {
 
 h2 {
     font-size: 30px;
-    color:#F2C84B;
+    color: #f16d9d;
     margin-top: 50px;
 }
 
@@ -33,8 +31,8 @@ h3 {
 
 h4 {
     font-weight: normal;
-font-size: 16px;
-color: rgb(117, 117, 117);
+    font-size: 16px;
+    color: rgb(117, 117, 117);
 }
 
 a {
@@ -42,19 +40,18 @@ a {
 }
 
 footer a {
-    color: #F2F2F2;
+    color: white;
 }
 
 header {
-    background-image: url(obrazky/Pozadi.jpg);
-    background-color: rgb(235, 235, 235);
+    background-image: url(obrazky/PozadiD.jpg);
     overflow: auto;
 }
 
 .portret {
     height: 200px;
-    border: #F2F2F2 solid 10px;
-    border-radius: 0 20px 0 20px;
+    border: white solid 1px;
+    border-radius: 15px;
     float: right;
     margin: 0 0 20px 40px;
 }
@@ -63,32 +60,33 @@ header {
     margin:0;
     padding:0;
     text-align: center;
-    background-color:#F2528D;
+    background-color: #3a3a3a;
     
 }
 .menu a {
     color:#F2F2F2;
     text-decoration :none;
-    padding: 20px 50px;
+    padding: 10px 50px;
     display: inline-block;
 }
 .menu li {
     display:inline;
     display:inline-block;
 }
-.menu a:hover,
-.menu a:focus {
-    background-color: #F2811D;
+.menu a:hover {
+        background-image: url(obrazky/TlacitkoMenu.jpg);
+        color:#3a3a3a;
 }
+    
 .menu a:active {
     color: #0D0D0D;
-    background-color: #F2F2F2;
+    background-color: white;
 }
 
 section img {
     height: 50px;
     float: left;
-    margin: 0 5px 0 0;
+    margin: 0 10px 0 0;
 }
 
 .mala_ikona {
@@ -98,8 +96,13 @@ section img {
 
 footer {
     text-align: center;
-    background-image: url(obrazky/paticka1.jpg);
-    color: #F2F2F2;        
+    background-image: url(obrazky/PozadiDpat.jpg);
+    color: #F2F2F2;  
+    margin-top: 50px;     
+}
+
+.nahoru {
+    margin-left: 30px;
 }
 
 .hlavicka,
@@ -107,9 +110,8 @@ footer {
     padding: 15px 10%;
 }
 
-section,
-header,
-footer {
+section
+ {
     padding: 0 10%;
 }
 
